@@ -11,8 +11,14 @@ For setting hyperparameters during training, you can set in the model_config.yml
 3. Using gradieo we do real-time inference. 
  
 **End!
+ 
+# Three IMPORTANT FILES ARE:
+     1. Dataset.py - Downloading Data and converting to .png
+     2. Traning.py - Training Binary Classifier
+     3. Inference.py - Real time inference using Gradeio 
+     
 
-Approach:
+Approach:      
 1. As we are interested in the classification of Face Mask Vs No Mask, color information is not that valuable for us, hence we convert all images into grayscale
 2. Using Dataloaders we load data.
 
