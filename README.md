@@ -1,7 +1,8 @@
 # Face_Mask Classification
 
 #To run Entire project:
-    - ./Main.sh
+    
+         ./Main.sh
 
 It would execute 3 steps :  
 1. Downloading dataset, converting files to .png
